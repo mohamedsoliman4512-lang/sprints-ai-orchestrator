@@ -1,0 +1,12 @@
+{
+  "cold_start_ms": 4292.8,
+  "n": 20,
+  "mean_ms": 13.5,
+  "p50_ms": 12.1,
+  "p95_ms": 17.6,
+  "max_ms": 26.2,
+  "over_budget": 0,
+  "budget_ms": 1000,
+  "passed": true,
+  "failures": []
+}

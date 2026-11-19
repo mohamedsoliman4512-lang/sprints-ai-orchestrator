@@ -1,0 +1,19 @@
+# Orchestration (all multi-agent routing is LangGraph)
+langgraph>=1.0
+langchain-core>=1.0
+langchain-openai>=1.0
+langchain-community>=0.4
+langchain-text-splitters>=0.3
+# Vector store (acceptance criterion: ChromaDB, retrieval within 1000 ms)
+chromadb>=1.0
+langchain-chroma>=1.0
+# Embeddings without an API (the model downloads once)
+fastembed>=0.3
+tiktoken>=0.7
+pydantic>=2.5
+python-dotenv>=1.0
+pytest>=8.0
+# Reports and deck
+reportlab>=4.0
+python-pptx>=1.0
+ipykernel>=6.0
